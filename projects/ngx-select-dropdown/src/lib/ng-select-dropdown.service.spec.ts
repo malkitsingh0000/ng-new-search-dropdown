@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { SelectDropDownService } from './ngx-select-dropdown.service';
+import { SelectDropDownService } from './ng-select-dropdown.service';
 
 describe('SelectDropDownService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

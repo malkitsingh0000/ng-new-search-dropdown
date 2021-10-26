@@ -5,7 +5,7 @@ import { ElementRef } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxSelectDropdownComponent } from './ngx-select-dropdown.component';
+import { NgxSelectDropdownComponent } from './ng-search-dropdown.component';
 
 const options = ['Option 1', 'Option 2', 'Option 3'];
 interface Account {
