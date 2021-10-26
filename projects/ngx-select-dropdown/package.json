@@ -1,6 +1,6 @@
 {
   "name": "ngx-select-dropdown",
-  "version": "2.1.0",
+  "version": "1.0",
   "description": "A angular(4+) select dropdown for single select or multiselct module.",
   "license": "MIT",
   "keywords": [
@@ -30,17 +30,17 @@
     "postversion": "git push && git push --tags"
   },
   "author": {
-    "name": "Manish Kumar",
-    "email": "manishjanky@gmail.com"
+    "name": "Malkit Singh",
+    "email": "msmalkitsingh323@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/manishjanky/ngx-select-dropdown.git"
+    "url": "https://github.com/malkitsingh0000/ng-new-search-dropdown"
   },
   "bugs": {
-    "url": "https://github.com/manishjanky/ngx-select-dropdown/issues"
+    "url": "https://github.com/malkitsingh0000/ng-new-search-dropdown"
   },
-  "homepage": "https://github.com/manishjanky/ngx-select-dropdown#readme",
+  "homepage": "https://github.com/malkitsingh0000/ng-new-search-dropdown",
   "peerDependencies": {
     "@angular/common": ">=4.0.0",
     "@angular/core": ">=4.0.0"
