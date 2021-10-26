@@ -17,7 +17,7 @@ import {
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
 @Component({
-  selector: 'ngx-select-dropdown',
+  selector: 'ng-search-dropdown',
   templateUrl: './ng-search-dropdown.component.html',
   styleUrls: ['./ng-search-dropdown.component.scss'],
   providers: [
