@@ -1,6 +1,6 @@
 {
   "name": "ng-search-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's a search-dropdown",
   "main": "index.js",
   "dependencies": {
@@ -966,5 +966,5 @@
   "bugs": {
     "url": "https://github.com/malkitsingh0000/ng-new-search-dropdown/issues"
   },
-  "homepage": "index.js"
+  "homepage": "http://index.js"
 }

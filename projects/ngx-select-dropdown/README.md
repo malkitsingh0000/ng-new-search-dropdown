@@ -34,7 +34,7 @@
 
 * import `SelectDropDownModule` into your app.module;
 ````
-import { SelectDropDownModule } from 'ngx-select-dropdown'
+import { SelectDropDownModule } from 'ng-search-dropdown'
 ````
 * add `SelectDropDownModule` to the imports of your NgModule:
 `````
