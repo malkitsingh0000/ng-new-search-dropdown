@@ -24,11 +24,11 @@
 
 ## Examples
 
-* [demo-page](https://manishjanky.github.io/ngx-select-dropdown/)
+* [demo-page](https://github.com/malkitsingh0000/ng-new-search-dropdown/)
 
 ## Installation
 
-* `npm install ngx-select-dropdown`
+* `npm install ng-search-dropdown`
 
 ### Using with webpack and tsc builds/ angular-cli builds
 
@@ -55,17 +55,6 @@ class YourModule { ... }
         "../node_modules/ngx-select-dropdown/dist/assets/style.css"
       ],
 `````
-
-
-* use `<ngx-select-dropdown></ngx-select-dropdown>` in your templates to add the custom dropdown in your view like below
-
-````
-<ngx-select-dropdown (change)="selectionChanged($event)" [multiple]="true" [(ngModel)]="dataModel" [config]="config" [options]="dropdownOptions"></ngx-select-dropdown>
-````
-* use with reactive form like
-````
-<ngx-select-dropdown (change)="selectionChanged($event)" formControlName="selectData" [multiple]="true" [config]="config" [options]="dropdownOptions"></ngx-select-dropdown>
-````
 
 ## Config
 
@@ -120,82 +109,9 @@ this.options = [...this.options, {id: 34, description: 'Adding new item'}];
 config = {...config, height:'200px'};
 
 ````
-
-## Changelog
-* v0.1.0
-````
- Added a change event so that user can attach a change event handler.
- If multiselect the selected text will display first item and + count for eg. (Option 1 + 2 more) .
-````
-* v0.2.0
-````
- Angular 4 and above support.
- Bug with search functionality fixed.
-````
-* v0.3.0
-````
- Support for Observable data source for options and async pipe.
- IE bug with styling.
- Few other minor bug fixes.
-````
-* v0.4.0
-````
- Use arrows keys and enter to select items from available options.
- Case insensitive search.
- Few other minor bug fixes.
-````
-* v0.5.0
-````
- Support for scroll bar with too many list items.
- Few other minor bug fixes.
-````
-* v0.7.0
-````
- Support for limito pipe to limit number of options displayed in case of too many options.
- Support for customComparator / custom sort function
- Few other minor bug fixes.
-````
-* v0.7.2
-````
- Support for angular 6
- Removed dependency on rxjs
-````
-* v0.8.0
-````
- No Results found indicator with custom text passed with config
- Custom text for *more* when more than 1 items selected
- Open event emitted
- Close event emitted
- Search placeholder text
-````
-* v1.0.0
-````
- Search on a specified key value.
- Support for Reactive forms
- Few other minor imoprovements and fixes
-````
-* v1.2.0
-````
- Search text change event searchChange
-````
-* v1.3.0
-````
- Clear search on selection config
- Disable with reactive forms .disable()
-````
-* v1.5.0
-````
-Custom function for displaying text for each option
-Add disabled class to different items based on item.disabled
-````
-* v2.0.0
-````
-Angular library approach opted for development
-Angular Ivy compatibility
-````
 ## Help Improve
 
-Found a bug or an issue with this? [Open a new issue](https://github.com/manishjanky/ngx-select-dropdown/issues) here on GitHub.
+Found a bug or an issue with this? [Open a new issue](https://github.com/malkitsingh0000/ng-new-search-dropdown) here on GitHub.
 
 ## Contributing to this project
 

@@ -26,13 +26,10 @@
     "ngx-dropdown",
     "ng2-dropdown"
   ],
-  "author": {
-    "name": "Manish Kumar",
-    "email": "manishjanky@gmail.com"
-  },
+  "author": "Malkit Singh <msmalkitsingh323@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manishjanky/ngx-select-dropdown.git"
+    "url": "git+https://github.com/manishjanky/ngx-select-dropdown.git"
   },
   "bugs": {
     "url": "https://github.com/manishjanky/ngx-select-dropdown/issues"
@@ -88,5 +85,6 @@
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
     "typescript": "~3.8.3"
-  }
+  },
+  "main": "index.js"
 }
