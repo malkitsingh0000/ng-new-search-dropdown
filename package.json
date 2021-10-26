@@ -1,6 +1,6 @@
 {
   "name": "ng-search-dropdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "It's a search-dropdown",
   "main": "index.js",
   "dependencies": {

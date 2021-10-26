@@ -3,33 +3,33 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-select-dropdown": {
+    "ng-search-dropdown": {
       "projectType": "library",
-      "root": "projects/ngx-select-dropdown",
-      "sourceRoot": "projects/ngx-select-dropdown/src",
+      "root": "projects/ng-search-dropdown",
+      "sourceRoot": "projects/ng-search-dropdown/src",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ngx-select-dropdown/tsconfig.lib.json",
-            "project": "projects/ngx-select-dropdown/ng-package.json"
+            "tsConfig": "projects/ng-search-dropdown/tsconfig.lib.json",
+            "project": "projects/ng-search-dropdown/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-select-dropdown/src/test.ts",
-            "tsConfig": "projects/ngx-select-dropdown/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-select-dropdown/karma.conf.js"
+            "main": "projects/ng-search-dropdown/src/test.ts",
+            "tsConfig": "projects/ng-search-dropdown/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-search-dropdown/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-select-dropdown/tsconfig.lib.json",
-              "projects/ngx-select-dropdown/tsconfig.spec.json"
+              "projects/ng-search-dropdown/tsconfig.lib.json",
+              "projects/ng-search-dropdown/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -164,5 +164,5 @@
         }
       }
     }},
-  "defaultProject": "ngx-select-dropdown"
+  "defaultProject": "ng-search-dropdown"
 }

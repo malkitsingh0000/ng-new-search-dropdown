@@ -1,14 +1,14 @@
-# ngx-select-dropdown
+# ng-search-dropdown
 
-[![GitHub license](https://img.shields.io/github/license/manishjanky/ngx-select-dropdown.svg)](https://github.com/me-and/mdf/blob/master/LICENSE)
-[![npm](https://img.shields.io/npm/v/ngx-select-dropdown.svg)]()
-[![Build Status](https://travis-ci.org/manishjanky/ngx-select-dropdown.svg?branch=master)](https://travis-ci.org/manishjanky/ngx-select-dropdown)
-[![Codecov branch](https://codecov.io/gh/manishjanky/ngx-select-dropdown/branch/master/graphs/badge.svg)]()
-[![npm](https://img.shields.io/npm/dt/ngx-select-dropdown.svg)]()
-[![GitHub top language](https://img.shields.io/github/languages/top/manishjanky/ngx-select-dropdown.svg)]()
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/manishjanky/ngx-select-dropdown.svg)]()
+[![GitHub license](https://img.shields.io/github/license/manishjanky/ng-search-dropdown.svg)](https://github.com/me-and/mdf/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/ng-search-dropdown.svg)]()
+[![Build Status](https://travis-ci.org/manishjanky/ng-search-dropdown.svg?branch=master)](https://travis-ci.org/manishjanky/ng-search-dropdown)
+[![Codecov branch](https://codecov.io/gh/manishjanky/ng-search-dropdown/branch/master/graphs/badge.svg)]()
+[![npm](https://img.shields.io/npm/dt/ng-search-dropdown.svg)]()
+[![GitHub top language](https://img.shields.io/github/languages/top/manishjanky/ng-search-dropdown.svg)]()
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/manishjanky/ng-search-dropdown.svg)]()
 
-`ngx-select-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
+`ng-search-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
 
 ## Features
 * single select dropdown
@@ -24,11 +24,11 @@
 
 ## Examples
 
-* [demo-page](https://manishjanky.github.io/ngx-select-dropdown/)
+* [demo-page](https://manishjanky.github.io/ng-search-dropdown/)
 
 ## Installation
 
-* `npm install ngx-select-dropdown`
+* `npm install ng-search-dropdown`
 
 ### Using with webpack and tsc builds/ angular-cli builds
 
@@ -52,19 +52,19 @@ class YourModule { ... }
 
 `````
  "styles": [
-        "../node_modules/ngx-select-dropdown/dist/assets/style.css"
+        "../node_modules/ng-search-dropdown/dist/assets/style.css"
       ],
 `````
 
 
-* use `<ngx-select-dropdown></ngx-select-dropdown>` in your templates to add the custom dropdown in your view like below
+* use `<ng-search-dropdown></ng-search-dropdown>` in your templates to add the custom dropdown in your view like below
 
 ````
-<ngx-select-dropdown (change)="selectionChanged($event)" [multiple]="true" [(ngModel)]="dataModel" [config]="config" [options]="dropdownOptions"></ngx-select-dropdown>
+<ng-search-dropdown (change)="selectionChanged($event)" [multiple]="true" [(ngModel)]="dataModel" [config]="config" [options]="dropdownOptions"></ng-search-dropdown>
 ````
 * use with reactive form like
 ````
-<ngx-select-dropdown (change)="selectionChanged($event)" formControlName="selectData" [multiple]="true" [config]="config" [options]="dropdownOptions"></ngx-select-dropdown>
+<ng-search-dropdown (change)="selectionChanged($event)" formControlName="selectData" [multiple]="true" [config]="config" [options]="dropdownOptions"></ng-search-dropdown>
 ````
 
 ## Config
@@ -102,7 +102,7 @@ config = {
 
 ### Change detection
 
-As of now `ngx-select-dropdown` uses Default change detection startegy which means dirty checking checks for immutable data types. And in Javascript Objects and arrays are mutable. So when changing any of the @Input parameters if you mutate an object change detection will not detect it. For ex:-
+As of now `ng-search-dropdown` uses Default change detection startegy which means dirty checking checks for immutable data types. And in Javascript Objects and arrays are mutable. So when changing any of the @Input parameters if you mutate an object change detection will not detect it. For ex:-
 ````
 this.options.push({id: 34, description: 'Adding new item'});
 
@@ -195,7 +195,7 @@ Angular Ivy compatibility
 ````
 ## Help Improve
 
-Found a bug or an issue with this? [Open a new issue](https://github.com/manishjanky/ngx-select-dropdown/issues) here on GitHub.
+Found a bug or an issue with this? [Open a new issue](https://github.com/manishjanky/ng-search-dropdown/issues) here on GitHub.
 
 ## Contributing to this project
 

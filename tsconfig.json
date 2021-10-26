@@ -20,11 +20,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-select-dropdown": [
-        "dist/ngx-select-dropdown"
+      "ng-search-dropdown": [
+        "dist/ng-search-dropdown"
       ],
-      "ngx-select-dropdown/*": [
-        "dist/ngx-select-dropdown/*"
+      "ng-search-dropdown/*": [
+        "dist/ng-search-dropdown/*"
       ]
     }
   },

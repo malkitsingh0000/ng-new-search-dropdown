@@ -1,8 +1,8 @@
-# ngx-select-dropdown
+# ng-search-dropdown
 
 
 
-`ngx-select-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
+`ng-search-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
 
 ## Features
 * single select dropdown
@@ -28,7 +28,7 @@
 
 * import `SelectDropDownModule` into your app.module;
 ````
-import { SelectDropDownModule } from 'ngx-select-dropdown'
+import { SelectDropDownModule } from 'ng-search-dropdown'
 ````
 * add `SelectDropDownModule` to the imports of your NgModule:
 `````
@@ -46,7 +46,7 @@ class YourModule { ... }
 
 `````
  "styles": [
-        "../node_modules/ngx-select-dropdown/dist/assets/style.css"
+        "../node_modules/ng-search-dropdown/dist/assets/style.css"
       ],
 `````
 
@@ -85,7 +85,7 @@ config = {
 
 ### Change detection
 
-As of now `ngx-select-dropdown` uses Default change detection startegy which means dirty checking checks for immutable data types. And in Javascript Objects and arrays are mutable. So when changing any of the @Input parameters if you mutate an object change detection will not detect it. For ex:-
+As of now `ng-search-dropdown` uses Default change detection startegy which means dirty checking checks for immutable data types. And in Javascript Objects and arrays are mutable. So when changing any of the @Input parameters if you mutate an object change detection will not detect it. For ex:-
 ````
 this.options.push({id: 34, description: 'Adding new item'});
 
