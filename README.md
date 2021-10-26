@@ -1,12 +1,6 @@
 # ngx-select-dropdown
 
-[![GitHub license](https://img.shields.io/github/license/manishjanky/ngx-select-dropdown.svg)](https://github.com/me-and/mdf/blob/master/LICENSE)
-[![npm](https://img.shields.io/npm/v/ngx-select-dropdown.svg)]()
-[![Build Status](https://travis-ci.org/manishjanky/ngx-select-dropdown.svg?branch=master)](https://travis-ci.org/manishjanky/ngx-select-dropdown)
-[![Codecov branch](https://codecov.io/gh/manishjanky/ngx-select-dropdown/branch/master/graphs/badge.svg)]()
-[![npm](https://img.shields.io/npm/dt/ngx-select-dropdown.svg)]()
-[![GitHub top language](https://img.shields.io/github/languages/top/manishjanky/ngx-select-dropdown.svg)]()
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/manishjanky/ngx-select-dropdown.svg)]()
+
 
 `ngx-select-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
 
