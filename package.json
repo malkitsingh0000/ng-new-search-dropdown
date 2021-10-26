@@ -1,0 +1,92 @@
+{
+  "name": "ngx-select-dropdown",
+  "version": "2.1.0",
+  "description": "A angular(4+) select dropdown for single select or multiselct module.",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular-2",
+    "angular-4",
+    "angular2",
+    "angular4",
+    "ng2",
+    "ng4",
+    "ngx",
+    "select",
+    "dropdown",
+    "multiselect",
+    "multi-select",
+    "dropdown",
+    "custom",
+    "combobox",
+    "ng-select",
+    "ngx-select",
+    "ng2-select",
+    "ng-dropdown",
+    "ngx-dropdown",
+    "ng2-dropdown"
+  ],
+  "author": {
+    "name": "Manish Kumar",
+    "email": "manishjanky@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manishjanky/ngx-select-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manishjanky/ngx-select-dropdown/issues"
+  },
+  "homepage": "https://github.com/manishjanky/ngx-select-dropdown#readme",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build ngx-select-dropdown",
+    "test": "ng test ngx-select-dropdown",
+    "lint": "ng lint ngx-select-dropdown",
+    "e2e": "ng e2e",
+    "publish": "ng build && cd dist/ngx-select-dropdown && npm publish",
+    "ci": "npm run lint && npm run test && npm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/animations": "~9.1.13",
+    "@angular/common": "~9.1.13",
+    "@angular/compiler": "~9.1.13",
+    "@angular/core": "~9.1.13",
+    "@angular/forms": "~9.1.13",
+    "@angular/platform-browser": "~9.1.13",
+    "@angular/platform-browser-dynamic": "~9.1.13",
+    "@angular/router": "~9.1.13",
+    "jquery": "^3.6.0",
+    "materialize-css": "^1.0.0",
+    "rxjs": "~6.6.7",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.15",
+    "@angular-devkit/build-ng-packagr": "~0.901.15",
+    "@angular/cli": "~9.1.15",
+    "@angular/compiler-cli": "~9.1.13",
+    "@angular/language-service": "~9.1.13",
+    "@types/jasmine": "~3.3.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^8.9.5",
+    "codelyzer": "^5.0.0",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.1.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "ng-packagr": "^9.1.5",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tsickle": "^0.37.0",
+    "tslint": "~5.15.0",
+    "typescript": "~3.8.3"
+  }
+}
